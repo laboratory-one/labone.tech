@@ -7,7 +7,7 @@ import './Nav.css';
 class Nav extends Component {
   render() {
     return (
-      <nav className="relative top-2 left-2 flex justify-between w-100 border-box pa3 b--dashed bt bb ">
+      <nav className="relative top-2 left-2-ns flex-column flex-row-ns flex justify-between w-100 border-box pa3 b--dashed bt bb">
         <Link 
           className="link dim black-70 f5 mr3"
           to="interview"
