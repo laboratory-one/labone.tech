@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App code">
-        <Element name="home" className="bg-washed-red">
+        <Element name="home" className="bg-washed-red black-70">
           <Header />
           <Nav />
         </Element>
