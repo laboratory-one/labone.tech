@@ -1,0 +1,9 @@
+html {
+  background-color: #F4F4F4;
+  text-transform: lowercase;
+}
+
+.App {
+  margin: 0 10%;
+  max-width: 1000px;
+}
