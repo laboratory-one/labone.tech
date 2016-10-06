@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { Element } from 'react-scroll';
 
 // import components
+import Footer from './Footer';
 import Header from './Header';
 import Image from './Image';
 import Interview from './Interview';
@@ -13,12 +15,17 @@ class App extends Component {
   render() {
     return (
       <div className="App code">
-        <div className="bg-washed-red">
+        <Element name="home" className="bg-washed-red">
           <Header />
           <Nav />
-        </div>
+        </Element>
         <Image />
-        <Interview />
+        <Element name="interview">
+          <Interview />
+        </Element>
+        <Element name="connect">
+          <Footer />
+        </Element>
       </div>
     );
   }

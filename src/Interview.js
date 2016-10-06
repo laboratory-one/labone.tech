@@ -6,7 +6,7 @@ import './Interview.css';
 class Interview extends Component {
   render() {
     return (
-      <div className="bg-washed-red mv5 pa3">
+      <div className="bg-washed-red mv6 pa3">
         <div className="flex justify-between pv3">
           <div>
             <h2 className="f2">q + a</h2>
@@ -32,43 +32,43 @@ class Interview extends Component {
             </blockquote>
           </div>          
         </div>
-        <div className="pv3 tc">
+        <div className="pv3">
           <h3 className="f3">
             What is Hype Phyllis?
           </h3>
           <div className="pa4">
-            <blockquote className="ml0 mt0 black-90 bl br bw2 b--white">
+            <blockquote className="ml0 mt0 pl4 black-90 bl bw2 b--white">
               <p className="f5 f4-m f3-l lh-copy measure mt0">  
                 The embodiment of Hype!
               </p>
             </blockquote>
           </div>          
         </div>
-        <div className="pv3 tr">
+        <div className="pv3">
           <h3 className="f3">
             When is Hype Phyllis?
           </h3>
           <div className="pa4">
-            <blockquote className="ml0 mt0 pr4 black-90 br bw2 b--white">
+            <blockquote className="ml0 mt0 pl4 black-90 bl bw2 b--white">
               <p className="f5 f4-m f3-l lh-copy measure mt0">  
                 Hype Phyllis is in the here n’ now!
               </p>
             </blockquote>
           </div>          
         </div>
-        <div className="pv3 tr">
+        <div className="pv3">
           <h3 className="f3">
             Where is Hype Phyllis?
           </h3>
           <div className="pa4">
-            <blockquote className="ml0 mt0 pr4 black-90 br bw2 b--white">
+            <blockquote className="ml0 mt0 pl4 black-90 bl bw2 b--white">
               <p className="f5 f4-m f3-l lh-copy measure mt0">  
                 Inside you’re heart!
               </p>
             </blockquote>
           </div>          
         </div>
-        <div className="pv3 tl">
+        <div className="pv3">
           <h3 className="f3">
             Why is Hype Phyllis?
           </h3>
@@ -80,12 +80,12 @@ class Interview extends Component {
             </blockquote>
           </div>          
         </div>        
-        <div className="pv3 tc">
+        <div className="pv3">
           <h3 className="f3">
             How is Hype Phyllis?
           </h3>
           <div className="pa4">
-            <blockquote className="ml0 mt0 black-90 bl br bw2 b--white">
+            <blockquote className="ml0 mt0 pl4 black-90 bl bw2 b--white">
               <p className="f5 f4-m f3-l lh-copy measure mt0">  
                 I’m well thanks, and yourself?
               </p>
