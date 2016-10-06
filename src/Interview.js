@@ -6,13 +6,13 @@ import './Interview.css';
 class Interview extends Component {
   render() {
     return (
-      <div className="bg-washed-red mv6-ns mv5 pa3 black-70">
-        <div className="relative right--2-ns flex justify-between-ns items-baseline pv3">
+      <div className="bg-washed-red mv6-ns mv5 pa3 pa0-ns black-70">
+        <div className="relative right--2-ns top--2-ns flex justify-between-ns flex-column flex-row-ns pv3">
           <div>
             <h2 className="f2-ns f3 Primary">q + a</h2>
             <p className="f6">with sailor mercury</p>
           </div>
-          <article className="bg-near-white pa3 br-100 Interviewer flex flex-column justify-around items-center">
+          <article className="bg-near-white pa0 pt0 mt0-ns pa3-ns pt3-ns mt5 br-100 Interviewer flex flex-column justify-around items-center-ns items-end center ml0-ns mr0-ns">
             <img src={process.env.PUBLIC_URL + '/images/ami.gif'} className="br-100 h4-ns w4-ns h3 w3" title="Kitty staring at you" alt="ami muzuno"/>
             <h1 className="f4-ns f5">Ami Muzuno</h1>
             <p className="lh-copy measure center f6">
