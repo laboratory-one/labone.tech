@@ -13,7 +13,7 @@ class Interview extends Component {
             <p className="f6">with sailor mercury</p>
           </div>
           <article className="bg-near-white pa3 br-100 Interviewer flex flex-column justify-around items-center">
-            <img src="/images/ami.gif" className="br-100 h4 w4" title="Kitty staring at you" alt="ami muzuno"/>
+            <img src={process.env.PUBLIC_URL + '/images/ami.gif'} className="br-100 h4 w4" title="Kitty staring at you" alt="ami muzuno"/>
             <h1 className="f4">Ami Muzuno</h1>
             <p className="lh-copy measure center f6">
               a kind and gentle person who disliked quarrels and abhorred harming innocent people. I like chess and swimming. computers r ~kEwL
