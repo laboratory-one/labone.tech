@@ -1,0 +1,59 @@
+.Background {
+
+  height: 100%;
+}
+
+.dot {
+  border-radius: 100%;
+  position: absolute;
+}
+
+.one {
+  width: 1000px;
+  height: 1000px;
+  background-color: #FFDFDF;
+  animation: fall 35s linear infinite alternate;
+}
+
+.two {
+  width: 1250px;
+  height: 1250px;
+  background-color: #F4F4F4;
+  animation: jump 40s ease-in infinite forwards;
+}
+
+@keyframes fall {
+  0% {
+    top: -100%;
+    left: -100%;
+  }
+  50% {
+    top: 150%;
+    left: 100%;
+  }
+  100% {
+    top: 450%;
+    left: 0;
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 400%;
+    left: 100%;
+  }
+  50% {
+    top: 200%;
+    left: 0;
+  }
+  100% {
+    top: -100%;
+    left: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Background {
+
+  }
+}
