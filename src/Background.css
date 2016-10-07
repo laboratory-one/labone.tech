@@ -29,26 +29,25 @@
   }
   50% {
     top: 150%;
-    left: 100%;
   }
   100% {
-    top: 450%;
+    top: 300%;
     left: 0;
   }
 }
 
 @keyframes jump {
   0% {
-    top: 400%;
-    left: 100%;
+    top: 300%;
+    left: 50%;
   }
   50% {
     top: 200%;
-    left: 0;
+    left: -50;
   }
   100% {
     top: -100%;
-    left: 100%;
+    left: -50%;
   }
 }
 
