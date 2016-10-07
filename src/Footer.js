@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 class Footer extends Component {
   render() {
     return (
-      <footer className="ph3-ns pv6-ns pv5 b--black-70 b--dashed bt bb-0 bl-0 br-0">
+      <footer className="relative ph3-ns pv6-ns pv5 b--black-70 b--dashed bt bb-0 bl-0 br-0">
         <a href="mailto:" className="link b f3-ns f4 dim black-70 lh-solid">hello@hypephyllis.com</a>
         <div className="mt5-ns mt4">
           <Link

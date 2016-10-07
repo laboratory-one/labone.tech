@@ -20,7 +20,7 @@ class Interview extends Component {
             </p>
           </article>
         </div>
-        <div className="mv6-ns mv5 flex justify-center flex-column items-center">
+        <div className="relative mv6-ns mv5 flex justify-center flex-column items-center-ns">
           <div className="pv3">
             <h3 className="f3-ns f5 Primary">
               Who is Hype Phyllis?

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Element } from 'react-scroll';
 
 // import components
+import Background from './Background';
 import Footer from './Footer';
 import Header from './Header';
 import Image from './Image';
@@ -15,7 +16,8 @@ class App extends Component {
   render() {
     return (
       <div className="App code">
-        <Element name="home" className="bg-washed-red black-70">
+        <Background />
+        <Element name="home" className="relative bg-washed-red black-70">
           <Header />
           <Nav />
         </Element>
