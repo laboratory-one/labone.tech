@@ -28,7 +28,7 @@ class Footer extends Component {
           >
             q + a
           </Link>
-          <a className="f6 dib-ns db pr2 black-70 dim" href="https://twitter.com/laboratory_one" title="Twitter">twitter</a>
+          <a className="f6 dib-ns db pr2 black-70 dim no-underline" href="https://twitter.com/laboratory_one" title="Twitter">twitter</a>
           <Link
             className="f6 dib-ns db pr2 black-70 dim"
             to="connect"
