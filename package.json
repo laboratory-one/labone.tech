@@ -20,8 +20,8 @@
     "dev": "nodejs-dashboard npm start",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject",
-    "deploy": "surge build/ labone.tech"
+    "deploy": "surge build/ http://labone.tech"
   }
 }
