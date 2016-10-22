@@ -23,72 +23,48 @@ class Interview extends Component {
         <div className="relative mv6-ns mv5 flex justify-center flex-column items-center-ns">
           <div className="pv3">
             <h3 className="f3-ns f5 Primary">
-              Who is Hype Phyllis?
+              What is Laboratory One?
             </h3>
             <div className="pv4-ns">
               <blockquote className="ml0 mt0 pl4-ns pl3 bl bw2 b--near-white">
                 <p className="f6 f5-ns lh-copy measure mt0">
-                  Hype Phyllis is Hype Phyllis!
+                  Laboratory One is a collective of entrepreneurs dedicated to technological excellence.
                 </p>
               </blockquote>
             </div>
           </div>
           <div className="pv3">
             <h3 className="f3-ns f5 Primary">
-              What is Hype Phyllis?
+              Where is Laboratory One?
             </h3>
             <div className="pv4-ns">
               <blockquote className="ml0 mt0 pl4-ns pl3 bl bw2 b--near-white">
                 <p className="f6 f5-ns lh-copy measure mt0">
-                  The embodiment of Hype!
+                  Laboratory One is proud to be based in Edmonton, Alberta. We love our city and we love remote.
                 </p>
               </blockquote>
             </div>
           </div>
           <div className="pv3">
             <h3 className="f3-ns f5 Primary">
-              When is Hype Phyllis?
+              Why is Laboratory One?
             </h3>
             <div className="pv4-ns">
               <blockquote className="ml0 mt0 pl4-ns pl3 bl bw2 b--near-white">
                 <p className="f6 f5-ns lh-copy measure mt0">
-                  Hype Phyllis is in the here n’ now!
+                  Technology moves fast. No one can keep track of it all. We try to stay cutting edge web developers to serve your needs. We love web development and you'll love our work
                 </p>
               </blockquote>
             </div>
           </div>
           <div className="pv3">
             <h3 className="f3-ns f5 Primary">
-              Where is Hype Phyllis?
+              How is Laboratory One?
             </h3>
             <div className="pv4-ns">
               <blockquote className="ml0 mt0 pl4-ns pl3 bl bw2 b--near-white">
                 <p className="f6 f5-ns lh-copy measure mt0">
-                  Inside you’re heart!
-                </p>
-              </blockquote>
-            </div>
-          </div>
-          <div className="pv3">
-            <h3 className="f3-ns f5 Primary">
-              Why is Hype Phyllis?
-            </h3>
-            <div className="pv4-ns">
-              <blockquote className="ml0 mt0 pl4-ns pl3 bl bw2 b--near-white">
-                <p className="f6 f5-ns lh-copy measure mt0">
-                  Because the world needs The Hype.
-                </p>
-              </blockquote>
-            </div>
-          </div>
-          <div className="pv3">
-            <h3 className="f3-ns f5 Primary">
-              How is Hype Phyllis?
-            </h3>
-            <div className="pv4-ns">
-              <blockquote className="ml0 mt0 pl4-ns pl3 bl bw2 b--near-white">
-                <p className="f6 f5-ns lh-copy measure mt0">
-                  I’m well thanks, and yourself?
+                  Laboratory One exists as ad-hoc teams unified as contractors to solve client needs. We recruit and train for excellence. We aren't perfect but we strive to be.
                 </p>
               </blockquote>
             </div>

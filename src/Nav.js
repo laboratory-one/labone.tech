@@ -16,16 +16,7 @@ class Nav extends Component {
         >
           q + a
         </Link>
-        <Link
-          className="link dim black-70 f5 mr3 strike"
-          to="shows"
-          smooth={true}
-          duration={500}
-        >
-          shows
-        </Link>
-        <a className="link dim black-70 f5 mr3 sick strike" href="https://soundcloud.com/hypephyllis" title="SoundCloud">sound-cloud</a>
-        <a className="link dim black-70 f5 mr3 sick strike" href="https://www.youtube.com/hypephyllis" title="YouTube">youtubes</a>
+        <a className="link dim black-70 f5 mr3 sick" href="https://twitter.com/laboratory_one" title="Twitter">twitter</a>
         <Link
           className="link dim black-70 f5 mr3"
           to="connect"
