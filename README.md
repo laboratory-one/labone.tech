@@ -1,7 +1,7 @@
 # laboratory one
 
 ## development
-- `npm run dev`
+- `npm start`
 - `npm test`
 
 ## deployment

@@ -17,7 +17,6 @@
     "tachyons": "^4.5.3"
   },
   "scripts": {
-    "dev": "nodejs-dashboard -- npm start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --coverage",
