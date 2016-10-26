@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+// import css
+import './Subscribe.css';
+
 class Interview extends Component {
   constructor() {
     super();
@@ -46,9 +49,17 @@ class Interview extends Component {
   }
 
   render() {
+    const {
+      subscribed,
+      failed,
+    } = this.state;
+
     return (
       <div
-        className="bg-washed-red ma5-ns ma4 black-70 relative pa4 pointer"
+        className={subscribed || failed
+          ? "bg-washed-red ma5-ns ma4 black-70 relative pa4 pointer"
+          : "bg-washed-red ma5-ns ma4 black-70 relative pa4 pointer dope"
+        }
         onClick={this._handleClick}>
         {this.renderMessage()}
       </div>

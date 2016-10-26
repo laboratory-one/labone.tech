@@ -1,0 +1,10 @@
+.dope {
+  background-color: #FFDFDF;
+  animation: flash 1s ease-out infinite alternate;
+}
+
+@keyframes flash {
+  100% {
+    background-color: #F4F4F4;
+  }
+}
