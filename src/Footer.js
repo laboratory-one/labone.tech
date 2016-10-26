@@ -31,6 +31,14 @@ class Footer extends Component {
           <a className="f6 dib-ns db pr2 black-70 dim no-underline" href="https://twitter.com/laboratory_one" title="Twitter">twitter</a>
           <Link
             className="f6 dib-ns db pr2 black-70 dim"
+            to="mailing-list"
+            smooth={true}
+            duration={500}
+          >
+            mailing list
+          </Link>
+          <Link
+            className="f6 dib-ns db pr2 black-70 dim"
             to="connect"
             smooth={true}
             duration={500}

@@ -19,6 +19,14 @@ class Nav extends Component {
         <a className="link dim black-70 f5 mr3 sick" href="https://twitter.com/laboratory_one" title="Twitter">twitter</a>
         <Link
           className="link dim black-70 f5 mr3"
+          to="mailing-list"
+          smooth={true}
+          duration={500}
+        >
+          mailing list
+        </Link>
+        <Link
+          className="link dim black-70 f5 mr3"
           to="connect"
           smooth={true}
           duration={500}

@@ -8,6 +8,7 @@ import Header from './Header';
 import Image from './Image';
 import Interview from './Interview';
 import Nav from './Nav';
+import Subscribe from './Subscribe';
 
 // import css
 import './App.css';
@@ -24,6 +25,9 @@ class App extends Component {
         <Image />
         <Element name="interview">
           <Interview />
+        </Element>
+        <Element name="mailing-list">
+          <Subscribe />
         </Element>
         <Element name="connect">
           <Footer />
