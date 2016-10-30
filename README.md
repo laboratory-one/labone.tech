@@ -1,4 +1,5 @@
-# laboratory one
+# labone.tech
+marketing web app
 
 ## development
 - `npm start`
