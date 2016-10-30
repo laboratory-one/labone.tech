@@ -13,55 +13,50 @@ class Interview extends Component {
 
     // declare state
     this.state = {
-      failed: false,
-      subscribed: false
+      clicked: false
     };
   }
 
   // subscribe to the laboratory one mailing list
   _handleClick() {
     // handle the click bruh
-    console.log("clicked");
-
-    // notify success to user
     this.setState({
-      subscribed: true
+      clicked: true
     });
 
-    // notify error to user
-    this.setState({
-      failed: true
-    });
 
   }
 
   renderMessage() {
     const {
-      subscribed,
-      failed,
+      clicked,
     } = this.state;
 
-    let message = <p className="tc">Subscribe to our<br />mailing list</p>;
-    message = subscribed ? <p className="tc">You've been subscribed to the<br />Laboratory One mailing list.<br />Thanks!</p> : message;
-    message = failed ? <p className="tc">um... we failed to subscribe you. Please try again.</p> : message;
+    // declare default state
+    const defaultState = <p className="tc">Subscribe to our<br />mailing list</p>;
+
+    // handle clicked state
+    const message = clicked ? <p className="tc">Thanks!</p> : defaultState;
 
     return message;
   }
 
   render() {
     const {
-      subscribed,
-      failed,
+      clicked,
     } = this.state;
 
     return (
-      <div
-        className={subscribed || failed
-          ? "bg-washed-red ma5-ns ma4 black-70 relative pa4 pointer"
-          : "bg-washed-red ma5-ns ma4 black-70 relative pa4 pointer dope"
-        }
-        onClick={this._handleClick}>
-        {this.renderMessage()}
+      <div>
+        <a
+          href="http://eepurl.com/clyYPH"
+          className={clicked
+            ? "bg-washed-red ma5-ns ma4 black-70 relative pa4 db pointer"
+            : "bg-washed-red ma5-ns ma4 black-70 relative pa4 db dope"
+          }
+          onClick={this._handleClick}>
+          {this.renderMessage()}
+        </a>
       </div>
     );
   }
