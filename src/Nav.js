@@ -17,6 +17,7 @@ class Nav extends Component {
           q + a
         </Link>
         <a className="link dim black-70 f5 mr3 sick" href="https://twitter.com/laboratory_one" title="Twitter">twitter</a>
+        <a className="link dim black-70 f5 mr3 sick" href="https://github.com/laboratory-one/labone.tech" title="Source">source</a>
         <Link
           className="link dim black-70 f5 mr3"
           to="mailing-list"

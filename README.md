@@ -1,5 +1,6 @@
 # labone.tech
 marketing web app
+[labone.tech](http://labone.tech)
 
 ## development
 - `npm start`
